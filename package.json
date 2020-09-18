@@ -1,7 +1,7 @@
 {
   "name": "e-learning-backend",
   "version": "1.0.0",
-  "description": "e-learning backend nodejs, typescript, grash ql postgre sql basic prject",
+  "description": "e-learning backend nodejs, typescript, restful API postgre sql basic prject",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,14 +20,19 @@
   "homepage": "https://github.com/buianh1998/E-Learning-Backend#readme",
   "dependencies": {
     "@types/express": "^4.17.8",
+    "@types/pg": "^7.14.4",
     "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
+    "class-transformer": "^0.3.1",
+    "class-validator": "^0.12.2",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-graphql": "^0.11.0",
     "graphql": "^15.3.0",
     "jsonwebtoken": "^8.5.1",
-    "multer": "^1.4.2"
+    "multer": "^1.4.2",
+    "pg": "^8.3.3",
+    "typeorm": "^0.2.26"
   },
   "devDependencies": {
     "@types/node": "^14.10.0",
